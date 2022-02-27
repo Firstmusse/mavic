@@ -1,3 +1,6 @@
+body{
+    font-family: 'SF Pro Display';
+}
 a{
     text-decoration: none;
 }
@@ -8,7 +11,6 @@ a{
 .header__btn{
     border: 1px solid #FFFFFF;
     background: transparent;
-    font-family: Ubuntu;
     font-weight: 500;
     font-size: 15px;
     color: #FFFFFF;
@@ -43,8 +45,6 @@ a{
 .menu__list-link{
     font-size: 15px;
     color: #FFFFFF;
-    font-family: Ubuntu;
-    font-style: normal;
 }
 .header{
     position: fixed;
@@ -90,15 +90,12 @@ color: #FFFFFF;
 }
 .top__title{
 font-family: SF Pro Display;
-font-style: normal;
 font-weight: 600;
 font-size: 96px;
 line-height: 115px;
 color: #FFFFFF;
 }
 .top__text{
-font-family: Ubuntu;
-font-style: normal;
 font-weight: 300;
 font-size: 17px;
 text-align: center;
