@@ -15,7 +15,16 @@ a{
     padding: 7px 28px;
     border-radius: 3px;
     margin-right: 10px;
+
+    transition: 0.4s;
 }
+
+.header__btn:hover {
+    background-color: #fff;
+    color: black;
+}
+/* Добавил тебе анимацию кнопки */
+
 .logo__img{
     width: auto;
     height: 27px;
