@@ -1,0 +1,97 @@
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header__btn{
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 7px 28px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.logo__img{
+    width: auto;
+    height: 27px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list-link{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-style: normal;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.header__phone{
+font-weight: bold;
+font-size: 16px;
+color: #FFFFFF;
+
+}
+.page-top {
+    background-image: url(../images/bg.png);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.menu__list-item {
+    padding: 5px 10px;
+}
+.header__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top__inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top__title{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 115px;
+color: #FFFFFF;
+}
+.top__text{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+text-align: center;
+color: #FFFFFF;
+}
