@@ -94,10 +94,21 @@ font-weight: 600;
 font-size: 96px;
 line-height: 115px;
 color: #FFFFFF;
+margin-bottom: 25px;
 }
 .top__text{
 font-weight: 300;
 font-size: 17px;
 text-align: center;
 color: #FFFFFF;
+margin-top: 25px;
+}
+.top__icon-media{
+    margin: 25px;
+    display: inline-block;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.top__icon-media:hover{
+    opacity: 1;
 }
