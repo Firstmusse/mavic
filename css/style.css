@@ -20,7 +20,9 @@ a{
 
     transition: 0.4s;
 }
-
+.header-fixed{
+    background-color: rgba(50, 45, 48, 0.8);
+}
 .header__btn:hover {
     background-color: #fff;
     color: black;
@@ -30,6 +32,12 @@ a{
 .logo__img{
     width: auto;
     height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo__img img{
+    margin-right: 10px;
 }
 .header__inner{
     display: flex;
@@ -55,6 +63,7 @@ a{
     align-items: center;
     justify-content: center;
     height: 80px;
+    z-index: 999;
 }
 .header__phone{
 font-weight: bold;
@@ -83,10 +92,12 @@ color: #FFFFFF;
     align-items: center;
 }
 .top__inner{
+    padding-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+    height: 100%;
 }
 .top__title{
 font-family: SF Pro Display;
@@ -94,14 +105,12 @@ font-weight: 600;
 font-size: 96px;
 line-height: 115px;
 color: #FFFFFF;
-margin-bottom: 25px;
 }
 .top__text{
 font-weight: 300;
 font-size: 17px;
 text-align: center;
 color: #FFFFFF;
-margin-top: 25px;
 }
 .top__icon-media{
     margin: 25px;
