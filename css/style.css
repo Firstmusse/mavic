@@ -137,8 +137,13 @@ text-align: center;
     width: 440px;
     height: 255px;
 }
+<<<<<<< HEAD
 .about__text-subtitle{
     font-size: 44px;
+=======
+.about__text-subtitle {
+    font-size: 99px;
+>>>>>>> 32226b65ae73b525ef5f1cdc02482953a2e7ab82
 }
 
 .about__text-slider{
