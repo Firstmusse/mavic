@@ -73,7 +73,7 @@ color: #FFFFFF;
 }
 .page-top {
     background-image: url(../images/bg.png);
-    height: 768px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
