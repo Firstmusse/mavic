@@ -137,6 +137,9 @@ text-align: center;
     width: 440px;
     height: 255px;
 }
+.about__text-subtitle{
+    font-size: 44px;
+}
 
 .about__text-slider{
     display: flex;
