@@ -256,8 +256,6 @@ text-align: center;
 .line__arrow-1{
     content: url(/images/up-left.png);
     position: absolute;
-    top: 0;
-    left: 0;
 }
 .line__arrow-2{
     content: url(/images/down-left.png);
