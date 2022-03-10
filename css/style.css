@@ -250,12 +250,16 @@ text-align: center;
     height: 500px;
 }
 /*Линии стрелки*/
-.images__releative{
+.up-left-line{
     position: relative;
 }
 .line__arrow-1{
     content: url(/images/up-left.png);
     position: absolute;
+}
+
+.down-left-line{
+    position: relative;
 }
 .line__arrow-2{
     content: url(/images/down-left.png);
@@ -266,9 +270,11 @@ text-align: center;
     position: absolute;
 }
 .line__arrow-4{
-    content: url(/images/down-left.png);
+    content: url(/images/down-right.png);
     position: absolute;
 }
+
+
 
 .main__subtitle h3{
     font-size: 44px;
