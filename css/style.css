@@ -505,8 +505,7 @@ text-align: center;
 .mavic__img{
     position: absolute;
     width: 320px;
-    right: 10px;
-    z-index: -1;
+    right: -323px;
 }
 
 
