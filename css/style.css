@@ -56,43 +56,12 @@ input {outline:none;}
     justify-content: space-between;
     align-items: center;
 }
-.menu__wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* .mobile__menu{
-    display: none;
-    list-style-type: none;
-}
-.mobile__menu-images{
-    width: 44px;
-    height: 44px;
-}
-.mobile__menu-list{
-    display: none;
-    position: absolute; 
-    background-color: rgba(50, 45, 48, 0.8);
-    top: 0;
-    height: 100vh;
-    text-align: center;
-    width: 50vw;
-    right: 0; 
-}
-
-    
-.mobile__menu-list li{
-    height: 35px;
-} */
 .menu__list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: none;
 }
-.mobile__menu-closed{
-    display: none;
-}
+
 .menu__list-link{
     font-size: 15px;
 }
@@ -332,7 +301,6 @@ text-align: center;
     font-weight: 300;
     font-size: 15px;
     line-height: 130%;
-    margin: 12px 0 12px;
 }
 .question__form {
     display: flex;
@@ -399,20 +367,12 @@ text-align: center;
     background: rgba(0, 0, 0, 0.0);
     font-weight: bold;
     font-size: 14px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
 }
 .form-btn button:hover{
     color: rgb(26, 26, 26);
+    background: rgba(250, 248, 248, 0.5);
+    border: 1px solid #383838;
     transition-duration: 0.6s;
-    background: #FFFFFF;
-    border: 1px solid #FFFFFF;
-}
-.input_question-left, .input_question,.textarea_question{
-    font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 400;
 }
 
 .contact__info-text a:hover{
@@ -431,7 +391,6 @@ font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 .footer__block-media {
@@ -441,6 +400,7 @@ font-weight: 400;
     margin: 25px 0 25px 0;
     list-style-type: none;
 }
+
 
 
 .scroll__btn{
