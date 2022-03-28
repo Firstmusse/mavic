@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="fonts/stylesheet.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,33 +27,40 @@
             <source srcset="images/logo-mobile.png" media="(max-width:600px)">
             <img src="images/logo.png" alt="">
             <div class="logo_2">
-              <img src="images/mavic2.png" alt="">
+              <img src="images/mavic2.svg" alt="">
             </div>
           </picture>
           
         </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">О ДРОНЕ</a>
-            </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">ПРЕИМУЩЕСТВА</a>
-            </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">ХАРАКТЕРИСТИКИ</a>
-            </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">ВОПРОСЫ</a>
-            </li>
-            <li class="menu__list-item">
-              <a class="menu__list-link" href="#">КОНТАКТЫ</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header__info">
-          <button class="header__btn">КУПИТЬ</button>
-          <a class="header__phone" href="tel:80505676767">8 (050) 567 67 67</a>
+
+        <div class="menu__wrapper">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О ДРОНЕ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ПРЕИМУЩЕСТВА</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ХАРАКТЕРИСТИКИ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ВОПРОСЫ</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__info">
+            <button class="header__btn">КУПИТЬ</button>
+            <div class="menu__btn">
+              <img class="mobile__menu-open" src="/images/menu.svg" alt="">
+              <img class="mobile__menu-closed" src="/images/menu__closed.svg" alt="">
+            </div>
+            <a class="header__phone" href="tel:80505676767">8 (050) 567 67 67</a>
+          </div>
         </div>
       </div>
     </div>

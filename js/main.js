@@ -27,8 +27,21 @@ $(document).ready(function () {
 
 
       });
-       
-
       
+      // $(".mobile__menu-link").click(function() {
+      // $(this).find("~ .menu__list").toggle(200);
+      // $(".mobile__menu-link").click(function(){
+      // });
 
-});
+      $('.menu__btn').click(function(){
+        $(".menu__list").toggleClass('menu-active');
+        $(this).toggleClass("burger-active")
+      });
+      
+       
+	});
+
+
+    
+  // toggleClass('.menu__list')        .toggle(200)
+
