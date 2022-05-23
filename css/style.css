@@ -79,8 +79,11 @@ input {outline:none;}
 .header__phone{
 font-weight: bold;
 font-size: 16px;
-
 }
+.mobile-menu{
+    display: none;
+}
+
 .page-top {
     background-image: url(../images/bg.png);
     height: 100vh;
@@ -490,25 +493,6 @@ text-align: center;
     width: 320px;
     right: -323px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .button__slider{
     display: flex;
     align-items: center;
@@ -527,17 +511,6 @@ text-align: center;
     width: 60px;
     height: 48px;
 }
-
-/* .slider__item {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider__item img {
-    width: 95%;
-} */
-
 .slider__item.slick-slide {
     margin: 0px 5px;
 }

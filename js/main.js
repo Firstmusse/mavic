@@ -32,3 +32,16 @@ $(document).ready(function () {
       
 
 });
+ // mobile.style.backgroundImage = "url('images/closed.svg')"
+
+
+const mobile = document.getElementById('mobile-click')
+const menu = document.getElementById('menu-m')
+
+const mobileActive = 
+
+mobile.onclick = function(){
+  mobile.classList.toggle('active');
+  menu.style.display = "flex";
+
+}
