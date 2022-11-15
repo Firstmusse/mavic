@@ -123,9 +123,16 @@ font-weight: 300;
 font-size: 17px;
 text-align: center;
 }
+.top__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .top__icon-media{
     margin: 25px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 0.5;
     transition: 0.5s;
 }
