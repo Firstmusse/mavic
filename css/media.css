@@ -124,7 +124,22 @@
 
 
 }
-
+@media (max-width: 1027px ){
+    .specification__item{
+        text-align: center;
+      
+    }
+    .specification__item img{
+        min-width: 80%;
+    }
+    .specification__box {
+        margin: 140px 0 60px 0;
+    }
+}
+@media (max-width: 1000px ){
+    
+    
+}
 @media (max-width: 660px ) {
     .benefits__container {
         margin: 40px 0 40px 0px;
