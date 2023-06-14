@@ -123,9 +123,17 @@ font-weight: 300;
 font-size: 17px;
 text-align: center;
 }
+.top__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .top__icon-media{
     margin: 25px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     opacity: 0.5;
     transition: 0.5s;
 }
@@ -408,7 +416,6 @@ text-align: center;
 
 .scroll__btn{
     text-align: center;
-    padding-top: 5%;
 }
 .footer__copy{
     font-weight: 300;
@@ -521,4 +528,10 @@ text-align: center;
 
 .slider__item.slick-slide img {
     width: 100%;
+}
+
+#scroll-btn-1{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
 }
